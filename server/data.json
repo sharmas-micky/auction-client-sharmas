@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "name": "Audi 250",
+      "price": "500000",
+      "owner": "admiralty20",
+      "last_bidder": "samson35"
+    },
+    {
+      "name": "Lamborghini S50",
+      "price": "300000",
+      "owner": "susaske40",
+      "last_bidder": "mickys"
+    },
+    {
+      "name": "Ferrari F560",
+      "price": "100000",
+      "owner": "samson35",
+      "last_bidder": "admiralty20"
+    },
+    {
+      "name": "realme pro ",
+      "price": "12346",
+      "owner": "micky_3242",
+      "last_bidder": "micky_3242"
+    },
+    {
+      "name": "dream catcher",
+      "price": "1201",
+      "owner": "micky_3242",
+      "last_bidder": "micky_3242"
+    }
+  ]
+}
