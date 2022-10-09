@@ -6,7 +6,9 @@ import Products from './components/Products';
 import Nav from './components/Nav';
 import {Route, Routes, BrowserRouter as Router} from 'react-router-dom';
 import socketIO from 'socket.io-client';
-const socket = socketIO.connect('https://auction-api-micky.herokuapp.com');
+const socket = socketIO.connect('https://auction-api-micky.herokuapp.com',{
+    transports: ["websocket"]
+  });
 
 function App() {
   return (
