@@ -12,7 +12,7 @@ function Products({socket}) {
 
   useEffect(() => {
     const fetchProducts = () => {
-      fetch("http://localhost:4000/api")
+      fetch("https://auction-api-micky.herokuapp.com/api")
         .then((res) => res.json())
         .then((data) => {
           setProducts(data.products);
@@ -21,7 +21,7 @@ function Products({socket}) {
     };
     socket.on('fetchData',()=>{
       const fetchProducts = () => {
-        fetch("http://localhost:4000/api")
+        fetch("https://auction-api-micky.herokuapp.com/api")
           .then((res) => res.json())
           .then((data) => {
             setProducts(data.products);
@@ -32,7 +32,7 @@ function Products({socket}) {
     })
     socket.on('afterBid',()=>{
       const fetchProducts = () => {
-        fetch("http://localhost:4000/api")
+        fetch("https://auction-api-micky.herokuapp.com/api")
           .then((res) => res.json())
           .then((data) => {
             setProducts(data.products);
